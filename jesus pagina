@@ -1,0 +1,39 @@
+import streamlit as st
+
+st.set_page_config(
+    page_title="sor jesusl",
+    page_icon="👋",
+    layout="centered"
+)
+
+# --- ENCABEZADO ---
+st.title("¡Hola! Soy jesus xd")
+st.subtitle("Estudiante / Apasionado por la Tecnología y la Programación")
+
+st.write("---")
+
+# --- SOBRE MÍ ---
+st.header("📌 Sobre mí")
+st.write(
+    """
+    Bienvenido a mi sitio web personal. Me interesa la programación, la resolución de 
+    problemas matemáticos y el desarrollo de proyectos tecnológicos.
+    """
+)
+
+# --- HABILIDADES ---
+st.header("🛠️ Habilidades & Herramientas")
+col1, col2 = st.columns(2)
+
+with col1:
+    
+
+st.subheader("1. Mi Página Web con Python")
+st.write("Sitio web interactivo construido utilizando Streamlit para mostrar mis proyectos e intereses.")
+
+# --- CONTACTO Y REDES ---
+st.header("📬 Contacto")
+st.write("¿Quieres ponerte en contacto conmigo o revisar mi trabajo?")
+
+st.markdown("[ GitHub](https://github.com)")
+st.markdown("[ LinkedIn](https://linkedin.com)")
